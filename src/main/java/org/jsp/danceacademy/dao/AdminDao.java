@@ -15,4 +15,11 @@ public class AdminDao {
 		adminRepository.save(admin);
 	}
 
+	public Admin findByEmail(String email) {
+		return adminRepository.findByEmail(email);
+	}
+
+	public Admin findByMobile(long mobile) {
+		return adminRepository.findByMobile(mobile);
+	}
 }

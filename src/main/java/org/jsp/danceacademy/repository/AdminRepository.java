@@ -3,7 +3,10 @@ package org.jsp.danceacademy.repository;
 import org.jsp.danceacademy.dto.Admin;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface AdminRepository extends JpaRepository<Admin, Integer>
-{
+public interface AdminRepository extends JpaRepository<Admin, Integer> {
+
+	Admin findByEmail(String email);
+
+	Admin findByMobile(long mobile);
 
 }

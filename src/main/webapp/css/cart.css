@@ -1,0 +1,33 @@
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table{
+    font-size: larger;
+    /* padding: 70px;
+    margin-left: 20px; */
+}
+.color {
+    font-size: large;
+    color:black;
+    background-color: #5d9be2; 
+}
+.color1{
+    font-size: large;
+    color:black;
+    background-color: rgb(252, 68, 68);
+    margin-right: -05px;
+    
+}
+.table1{
+    border: 2px solid black;
+    height: 200px;
+}
+button{
+    gap: 10px;
+}
